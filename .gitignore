@@ -1,0 +1,19 @@
+# Environment & local secrets
+.env
+.env.local
+.env.*.local
+
+# Local SQLite preview database
+database/*.sqlite
+database/*.sqlite-journal
+database/*.db
+
+# Composer dependencies
+/vendor/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

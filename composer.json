@@ -1,0 +1,23 @@
+{
+    "name": "liberia-mys/interview-panel-system",
+    "description": "Ministry of Youth and Sports (Republic of Liberia) — Interview Panel Management and Scoring System supporting Physical and Virtual Recruitment Interviews",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "phpoffice/phpspreadsheet": "^2.1",
+        "dompdf/dompdf": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}

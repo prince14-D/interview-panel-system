@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="Ministry of Youth and Sports Liberia Emblem">
+  <defs>
+    <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B2545"/>
+      <stop offset="100%" stop-color="#163E70"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="47" fill="url(#shieldGrad)" stroke="#C9A227" stroke-width="4"/>
+  <circle cx="50" cy="50" r="39" fill="none" stroke="#FFFFFF" stroke-width="1" stroke-opacity="0.35"/>
+  <!-- Liberian stripes motif -->
+  <rect x="24" y="56" width="52" height="5" rx="2" fill="#BF0A30"/>
+  <rect x="28" y="64" width="44" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="33" y="71" width="34" height="4" rx="2" fill="#BF0A30"/>
+  <!-- Lone Star -->
+  <polygon points="50,18 54.5,31.5 68.5,31.5 57,39.8 61.5,53 50,45 38.5,53 43,39.8 31.5,31.5 45.5,31.5" fill="#FFFFFF"/>
+  <text x="50" y="87" text-anchor="middle" font-family="Arial, sans-serif" font-size="9.5" font-weight="bold" fill="#C9A227" letter-spacing="1.2">MYS LIBERIA</text>
+</svg>

@@ -1,0 +1,12 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    # Protect sensitive directories from direct web access
+    RewriteRule ^(config|database|src|templates|tests|docs|vendor)/ - [F,L]
+    RewriteRule ^(\.env|composer\.json|composer\.lock) - [F,L]
+</IfModule>
+
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
