@@ -30,8 +30,7 @@ A modular, responsive PHP 8.2+ & MySQL 8+ recruitment platform designed for the 
 
 1. Copy `.env.example` to `.env` and set your MySQL credentials.
 2. Import `database/schema.sql` and `database/seed.sql` into MySQL (`mys_interview_panel`).
-3. Run `composer install` to install `phpoffice/phpspreadsheet` and `dompdf/dompdf`.
-4. Open `public/login.php` and sign in with `admin@mys.gov.lr` / `Admin@2026!` (change password immediately).
+
 
 For full **XAMPP** and **Hostinger** deployment instructions, see [`docs/DEPLOYMENT.md`](docs/DEPLOYMENT.md).
 
